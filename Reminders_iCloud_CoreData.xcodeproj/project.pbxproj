@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3969988316261593004BD70E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3969988216261593004BD70E /* UIKit.framework */; };
+		3969988516261593004BD70E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3969988416261593004BD70E /* Foundation.framework */; };
+		3969988716261593004BD70E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3969988616261593004BD70E /* CoreGraphics.framework */; };
+		3969988916261593004BD70E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3969988816261593004BD70E /* CoreData.framework */; };
+		3969988F16261593004BD70E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3969988D16261593004BD70E /* InfoPlist.strings */; };
+		3969989116261593004BD70E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3969989016261593004BD70E /* main.m */; };
+		3969989516261593004BD70E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3969989416261593004BD70E /* AppDelegate.m */; };
+		3969989716261593004BD70E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3969989616261593004BD70E /* Default.png */; };
+		3969989916261593004BD70E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3969989816261593004BD70E /* Default@2x.png */; };
+		3969989B16261593004BD70E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3969989A16261593004BD70E /* Default-568h@2x.png */; };
+		3969989E16261593004BD70E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3969989C16261593004BD70E /* MainStoryboard_iPhone.storyboard */; };
+		396998A116261593004BD70E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3969989F16261593004BD70E /* MainStoryboard_iPad.storyboard */; };
+		396998A416261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 396998A216261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodeld */; };
+		396998A716261593004BD70E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396998A616261593004BD70E /* MasterViewController.m */; };
+		396998AA16261593004BD70E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396998A916261593004BD70E /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3969987E16261593004BD70E /* Reminders_iCloud_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders_iCloud_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3969988216261593004BD70E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3969988416261593004BD70E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3969988616261593004BD70E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3969988816261593004BD70E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3969988C16261593004BD70E /* Reminders_iCloud_CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reminders_iCloud_CoreData-Info.plist"; sourceTree = "<group>"; };
+		3969988E16261593004BD70E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3969989016261593004BD70E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3969989216261593004BD70E /* Reminders_iCloud_CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reminders_iCloud_CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		3969989316261593004BD70E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3969989416261593004BD70E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3969989616261593004BD70E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3969989816261593004BD70E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3969989A16261593004BD70E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3969989D16261593004BD70E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		396998A016261593004BD70E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		396998A316261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminders_iCloud_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		396998A516261593004BD70E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		396998A616261593004BD70E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		396998A816261593004BD70E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		396998A916261593004BD70E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3969987B16261593004BD70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969988316261593004BD70E /* UIKit.framework in Frameworks */,
+				3969988516261593004BD70E /* Foundation.framework in Frameworks */,
+				3969988716261593004BD70E /* CoreGraphics.framework in Frameworks */,
+				3969988916261593004BD70E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3969987316261593004BD70E = {
+			isa = PBXGroup;
+			children = (
+				3969988A16261593004BD70E /* Reminders_iCloud_CoreData */,
+				3969988116261593004BD70E /* Frameworks */,
+				3969987F16261593004BD70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3969987F16261593004BD70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3969987E16261593004BD70E /* Reminders_iCloud_CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3969988116261593004BD70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3969988216261593004BD70E /* UIKit.framework */,
+				3969988416261593004BD70E /* Foundation.framework */,
+				3969988616261593004BD70E /* CoreGraphics.framework */,
+				3969988816261593004BD70E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3969988A16261593004BD70E /* Reminders_iCloud_CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3969989316261593004BD70E /* AppDelegate.h */,
+				3969989416261593004BD70E /* AppDelegate.m */,
+				3969989C16261593004BD70E /* MainStoryboard_iPhone.storyboard */,
+				3969989F16261593004BD70E /* MainStoryboard_iPad.storyboard */,
+				396998A516261593004BD70E /* MasterViewController.h */,
+				396998A616261593004BD70E /* MasterViewController.m */,
+				396998A816261593004BD70E /* DetailViewController.h */,
+				396998A916261593004BD70E /* DetailViewController.m */,
+				396998A216261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodeld */,
+				3969988B16261593004BD70E /* Supporting Files */,
+			);
+			path = Reminders_iCloud_CoreData;
+			sourceTree = "<group>";
+		};
+		3969988B16261593004BD70E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3969988C16261593004BD70E /* Reminders_iCloud_CoreData-Info.plist */,
+				3969988D16261593004BD70E /* InfoPlist.strings */,
+				3969989016261593004BD70E /* main.m */,
+				3969989216261593004BD70E /* Reminders_iCloud_CoreData-Prefix.pch */,
+				3969989616261593004BD70E /* Default.png */,
+				3969989816261593004BD70E /* Default@2x.png */,
+				3969989A16261593004BD70E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3969987D16261593004BD70E /* Reminders_iCloud_CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396998AD16261593004BD70E /* Build configuration list for PBXNativeTarget "Reminders_iCloud_CoreData" */;
+			buildPhases = (
+				3969987A16261593004BD70E /* Sources */,
+				3969987B16261593004BD70E /* Frameworks */,
+				3969987C16261593004BD70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reminders_iCloud_CoreData;
+			productName = Reminders_iCloud_CoreData;
+			productReference = 3969987E16261593004BD70E /* Reminders_iCloud_CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3969987516261593004BD70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Hubert Kunnemeyer";
+			};
+			buildConfigurationList = 3969987816261593004BD70E /* Build configuration list for PBXProject "Reminders_iCloud_CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3969987316261593004BD70E;
+			productRefGroup = 3969987F16261593004BD70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3969987D16261593004BD70E /* Reminders_iCloud_CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3969987C16261593004BD70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969988F16261593004BD70E /* InfoPlist.strings in Resources */,
+				3969989716261593004BD70E /* Default.png in Resources */,
+				3969989916261593004BD70E /* Default@2x.png in Resources */,
+				3969989B16261593004BD70E /* Default-568h@2x.png in Resources */,
+				3969989E16261593004BD70E /* MainStoryboard_iPhone.storyboard in Resources */,
+				396998A116261593004BD70E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3969987A16261593004BD70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969989116261593004BD70E /* main.m in Sources */,
+				3969989516261593004BD70E /* AppDelegate.m in Sources */,
+				396998A416261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodeld in Sources */,
+				396998A716261593004BD70E /* MasterViewController.m in Sources */,
+				396998AA16261593004BD70E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3969988D16261593004BD70E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3969988E16261593004BD70E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3969989C16261593004BD70E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3969989D16261593004BD70E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3969989F16261593004BD70E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396998A016261593004BD70E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396998AB16261593004BD70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		396998AC16261593004BD70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396998AE16261593004BD70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders_iCloud_CoreData/Reminders_iCloud_CoreData-Prefix.pch";
+				INFOPLIST_FILE = "Reminders_iCloud_CoreData/Reminders_iCloud_CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		396998AF16261593004BD70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reminders_iCloud_CoreData/Reminders_iCloud_CoreData-Prefix.pch";
+				INFOPLIST_FILE = "Reminders_iCloud_CoreData/Reminders_iCloud_CoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3969987816261593004BD70E /* Build configuration list for PBXProject "Reminders_iCloud_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396998AB16261593004BD70E /* Debug */,
+				396998AC16261593004BD70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396998AD16261593004BD70E /* Build configuration list for PBXNativeTarget "Reminders_iCloud_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396998AE16261593004BD70E /* Debug */,
+				396998AF16261593004BD70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		396998A216261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				396998A316261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodel */,
+			);
+			currentVersion = 396998A316261593004BD70E /* Reminders_iCloud_CoreData.xcdatamodel */;
+			path = Reminders_iCloud_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3969987516261593004BD70E /* Project object */;
+}
