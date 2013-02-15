@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="eventName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reminders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Reminders" inverseName="event" inverseEntity="Reminders" syncable="YES"/>
+    </entity>
+    <entity name="Reminders" representedClassName="Reminders">
+        <attribute name="reminderData" optional="YES" attributeType="Transformable" valueTransformerName="">
+            <userInfo/>
+        </attribute>
+        <attribute name="uniqueIDString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="event" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Event" inverseName="reminders" inverseEntity="Event" syncable="YES"/>
+        <userInfo/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Event" positionX="-317" positionY="281" width="128" height="73"/>
+        <element name="Reminders" positionX="-81" positionY="261" width="128" height="90"/>
     </elements>
 </model>

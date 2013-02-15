@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+#import "Event.h"
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate,UITextFieldDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) Event *event;
 @end
